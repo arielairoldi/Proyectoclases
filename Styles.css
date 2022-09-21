@@ -1,0 +1,165 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    /*PARA QUE NO SE SUPERPONGAN UNAS CON OTRAS*/
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-start;
+    background-color: rgb(65,111,77); /*COLOR CAMBIADO */
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+    .logo {
+        flex:  5 1 auto;
+        height: 10%;
+        width: 10%;
+        text-align: right;
+    }
+
+    .titulo1 {
+        flex: 5 1 auto;
+        color: white ;
+        text-align: left; 
+        padding: 2%; 
+    }
+
+    .nav {
+        flex: 1 1 100% ;
+        align-content: center;
+    }
+            .menu_gen{
+                display: flex;
+                flex-flow: row nowrap;
+                align-content: center;
+                align-items: flex-start;
+            }
+                .inicio{
+                        flex: 1 1 auto;
+                        text-align: center;
+                }
+                .bibliote{
+                        flex: 1 1 auto;
+                        text-align: center;
+                   
+                }
+                .apoyo{
+                         flex: 1 1 auto;
+                         text-align: center;
+                }   
+                .tecni{
+                         flex: 1 1 auto;
+                         text-align: center;
+                 
+                }
+                .contac{
+                        flex: 1 1 auto;
+                        text-align:center;
+                }
+                .menu_gen a {
+                    color: white;
+                    text-decoration: none;
+                    list-style: none;
+                }
+                .menu_gen a:hover{
+                    background-color:#306d1e;
+                    padding: 2% 10% 2% 10%;            /*(padding-top, padding-right, padding-bottom, padding-left).*/
+                    border-radius: 10px;
+                }                  
+cuerpo {
+    margin-top: -2px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content:flex-start;
+    align-items: flex-start;
+}               
+    aside {
+        /*padding: 0; *//*SACANDOLO QUEDA MEJOR POR MODIFICACION DE MAX-WIDTH*/
+        flex: 0 1 auto;
+        max-width: 20%;   /*MODIFICADO PARA QUE QUEDE MAS ESPACIO EN ARTICLE*/
+        position: sticky;
+        top: 0; 
+    }
+
+    article {
+        flex: 1 1 auto;
+        font-size: 18px;
+        font-family: Arial;
+        text-align: left;
+        margin: 2%;
+        color: black;
+    }
+
+footer {
+    margin-top: -2px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(65,111,77);
+    font-family: Arial, Helvetica, sans-serif, Impact;
+}
+    .fa-brands{
+        flex: 1 1 auto;
+        font-size: 50px;
+    }
+
+/*Estilos de biblioteca digital*/
+
+.biblio {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    
+}
+h2 {
+    color: black;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0;
+    text-align: center;
+}
+.materia {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align:left ;
+
+}
+h3{
+    text-transform: uppercase;
+    background-color: #1a6b02;
+    color: white;
+    padding: 1rem;
+    border-radius: 10pt;
+    text-align: center;
+    font-size: pt;
+    margin: 0 1em;  /* margen superior 1em, right margin 2em, bottom margin 3em, left margin 4em */
+}
+.materia a {
+    text-decoration: none;
+    color: #000;
+    font-size: pt;
+}
+.materia a:hover {
+    font-size: larger;
+}
+
+@media (max-width: 450px){
+    .biblio {
+        width: 100%;
+    }
+}

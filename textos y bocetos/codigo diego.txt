@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases Gratuitas Online</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <p><h1>Clases gratuitas online</h1></p>
+        <img src="imagens/Logo.png" alt="logo de clases gratuitas online">
+
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Biblioteca</li>
+            <li>Profesores</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+    <aside>
+        <img src="imagens/Ingles.jpg" alt="Estudiantes de ingles"; class="foto">
+        <p>INGLES</p>
+        <img src="imagens/matematicas.jpg" alt="Practicar matematicas"; class="foto">
+        <P>MATEMATICAS</P>
+        <img src="imagens/Literatura.jpg" alt="foto de libros"; class="foto">
+        <P>LITERATURA</P>
+        <img src="imagens/Historia.jpg" alt="Foto historica"; class="foto">
+        <P>HISTORIA</P>
+        <img src="imagens/Tips.jpg" alt="Foto de Einstein"; class="foto">
+        <P>T I P S</P>
+    </aside>
+    <div>
+        <p><h1>Bienvenidos a Clases gratis online</h1>
+        </p>
+        <p>Nuestra misión es ayudar  a todos aquellos estudiantes de nivel
+        secundario que necesiten afianzar los conocimeintos de las materias 
+        curiculares a través de nuestra web. <br> 
+        En Clases Gratis Online tendrá la posibilidad de acceder a profesores 
+        particulares de manera online, con la posibilidad de programar el día 
+        y el horario según su conveniencia  y posibilidades. <br>
+        También encontrará una biblioteca virtual con los libros m+as 
+        actualizados y una librería de videos didácticos elaborados por
+        los profesores de inglés, matemáticas, historia , etc.
+   </p>
+    </div>
+
+    <footer> Av.del Libertador 15232 Caba mail: CGO@gmail.com</footer>
+    
+</body>
+</html>
