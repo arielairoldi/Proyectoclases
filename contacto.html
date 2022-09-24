@@ -37,34 +37,61 @@
 
         <article>
 
-                <h3> Contacto</h3>
-                <br>
-                <form action="CONTACTO">
-                    <label for="correo_electronico">Correo electrónico: </label>
-                    <input type="email" name="correo_electronico" id="id1">
-                    <br>  
-                    <br>
-                    <label for="Materia">Materia:</label>
-                    <input type="radio" name="materia" value="1">Lengua
-                    <input type="radio" name="materia" value="2">Matematica
-                    <input type="radio" name="materia" value="3">Cs.Sociales
-                    <input type="radio" name="materia" value="4">Cs.Naturales
-                    <input type="radio" name="materia" value="5">Quimica
-                    <input type="radio" name="materia" value="6">Fisica
-                    <br>
-                    <br>
-                    <label for="consulta">Consulta: </label>
-                    <br>
-                    <center><textarea name="consulta" id="id2" rows="6" cols="100">Ingresa tu consulta</textarea></center>
-                    <br>
-                    <br>
-                    <center><div>
-                    <input type="submit" value="Enviar consulta" > 
-                    <input type="reset" value="Borrar todo" > 
-                    </div></center>   
-                </form>
+            <h3> Contacto</h3>
+            <br>
+            <form action="CONTACTO">
 
-            
+                <label for="nom">Nombre: </label>
+                <input type="text" name="nombre" id="nom" placeholder="Ingrese su nombre">
+                <br>
+                <br>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                <br>
+                <br>
+
+                <label for="correo_electronico">Correo electrónico: </label>
+                <input type="email" name="correo_electronico" id="id1" placeholder="Ingrese su email">
+                <br>
+                <br>
+                <label for="nacer">Fecha de Nacimiento: </label>
+                <input type="date" name="fecha-de-nacimiento" id="nacer">
+                <br>
+                <br>
+
+
+                <p>Género:
+                    <input type="radio" name="genero" value="M" checked>Mujer
+                    <input type="radio" name="genero" value="H">Hombre
+                    <input type="radio" name="genero" value="O">Otro
+                </p>
+                <br>
+
+                <label for="materia_e">Materia:</label>
+                <select name="materia_e">
+                    <option value="lengua">Lengua y Literatura</option>
+                    <option value="matemat">Matemáticas</option>
+                    <option value="cs_sociales">Ciencias Sociales</option>
+                    <option value="cs_naturales">Ciencias Naturales</option>
+                    <option value="informatica">Informática</option>
+                </select>
+
+                <br>
+                <br>
+                <label for="consulta">Consulta: </label>
+                <br>
+                <center><textarea name="consulta" id="id2" rows="6">Ingresa tu consulta</textarea></center>
+                <br>
+                <br>
+                <center>
+                    <div>
+                        <input type="submit" value="Enviar consulta">
+                        <input type="reset" value="Borrar todo">
+                    </div>
+                </center>
+            </form>
+
+
         </article>
     </cuerpo>
 
@@ -73,7 +100,7 @@
         <p><b> Clasesgratuitasonline@gmail.com </b></p> <!--AGREGADO--> 
             
     </footer>
-    
+     
 </body>
 </html>
 
