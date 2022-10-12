@@ -135,6 +135,17 @@ footer {
         font-size: 50px;
     }
 
+/*Imagen el la página de inicio*/
+.logo-img-p {
+    max-width: 100%;
+}
+
+
+/*Videos de clases de apoyo*/
+iframe {
+    width:450px;
+    height: 315px;
+}
 
 /*Estilos de biblioteca digital*/
 
@@ -226,49 +237,6 @@ input[type="submit"], input[type="reset"] {
     border-radius: 10px;
 }
 
-/*Tamaño mediano*/
-@media (max-width: 768px){
-    .fa-book {
-        font-size: 90pt;
-    }
-    h4{
-        font-size: smaller;
-    }
-    .fa-book:hover {
-        font-size: 100pt;
-    }
-    .materia ul {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-
-}
-
-/*Tamaño pequeño*/
-@media (max-width: 576px){
-    .biblio {
-        width: 100%;
-    }
-    .logo {
-        display: none;
-    }
-    aside {
-        display: none;
-    }
-    .materia ul {
-        grid-template-columns: 1fr 1fr;
-    }
-    .fa-book {
-        font-size: 70pt;
-    }
-    .fa-book:hover {
-        font-size: 80pt;
-    }
-    h4{
-        font-size: smaller;
-    }
-}
-
 /*TECNICAS DE ESTUDIO*/
 
 .diagramacion {
@@ -302,3 +270,65 @@ input[type="submit"], input[type="reset"] {
    text-decoration: none; 
    color: rgb(253, 251, 251);
 }
+
+
+/*Tamaño mediano*/
+@media (max-width: 768px){
+    .fa-book {
+        font-size: 90pt;
+    }
+    h4{
+        font-size: smaller;
+    }
+    .fa-book:hover {
+        font-size: 100pt;
+    }
+    .materia ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .logo {
+        display: none;
+    }
+    .titulo1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
+
+/*Tamaño pequeño*/
+@media (max-width: 576px){
+    .biblio {
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+    .materia ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    .fa-book {
+        font-size: 70pt;
+    }
+    .fa-book:hover {
+        font-size: 80pt;
+    }
+    h4{
+        font-size: smaller;
+    }
+    .menu_gen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+}
+
