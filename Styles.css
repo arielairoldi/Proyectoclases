@@ -44,24 +44,43 @@ header {
                         flex: 1 1 auto;
                         text-align: center;
                 }
+                    .inicio:hover{
+                        /**ANIMACION*/
+                        transform:scale(1.2);
+                    }
                 .bibliote{
                         flex: 1 1 auto;
                         text-align: center;
                    
                 }
+                    .bibliote:hover{
+                        /**ANIMACION*/
+                        transform:scale(1.2);
+                    }
                 .apoyo{
                          flex: 1 1 auto;
                          text-align: center;
                 }   
+                    .apoyo:hover{
+                        /**ANIMACION*/
+                        transform:scale(1.2);
+                    }
                 .tecni{
                          flex: 1 1 auto;
                          text-align: center;
-                 
                 }
+                    .tecni:hover{
+                        /**ANIMACION*/
+                        transform:scale(1.2);
+                    }
                 .contac{
                         flex: 1 1 auto;
                         text-align:center;
                 }
+                    .contac:hover{
+                        /**ANIMACION*/
+                        transform:scale(1.2);
+                    }
                 .menu_gen a {
                     color: white;
                     text-decoration: none;
