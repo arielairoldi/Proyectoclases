@@ -195,10 +195,17 @@ input[type="text"], input[type="email"], input[type="date"], select[name="materi
 textarea {
     width: 80%;
 }
+/*Botones del Formulario*/
 input[type="submit"], input[type="reset"] {
     padding: 10px;
+    background-color: #04491b;
+    color: #fff;
 }
-
+#b1:hover, #b2:hover {
+    background-color: #306d1e;
+    padding: 1%;
+    border-radius: 10px;
+}
 
 /*Tamaño mediano*/
 @media (max-width: 768px){
