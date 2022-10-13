@@ -294,6 +294,9 @@ input[type="submit"], input[type="reset"] {
         justify-content: center;
         text-align: center;
     }
+    .diagramacion li{
+        margin-left: 5%;
+    }
 
 
 }
