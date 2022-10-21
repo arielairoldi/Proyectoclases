@@ -270,7 +270,31 @@ input[type="submit"], input[type="reset"] {
    text-decoration: none; 
    color: rgb(253, 251, 251);
 }
+/*Estilo de la api consumida- palabras random en inglés*/
+#activi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#activi p {
+    margin: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+#activi button{
+    padding: 10px;
+    background-color: #04491b;
+    color: #fff;
+}
+#activi button:hover {
+        background-color: #306d1e;
+        border-radius: 10px;
+}
+
+#contenido {
+    text-transform: uppercase;
+    font-size: large;
+}
 
 /*Tamaño mediano*/
 @media (max-width: 768px){

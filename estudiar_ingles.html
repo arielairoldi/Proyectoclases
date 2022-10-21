@@ -34,11 +34,16 @@
 
     <cuerpo>
         <aside>
-            <img src="imagens/Ingles.jpg" alt="Estudiantes de ingles" ; width="100%">
-            <img src="imagens/matematicas.jpg" alt="Practicar matematicas" ; width="100%">
-            <img src="imagens/Literatura.jpg" alt="foto de libros" ; width="100%">
-            <img src="imagens/Historia.jpg" alt="Foto historica" ; width="100%">
-            <img src="imagens/Tips.jpg" alt="Foto de Einstein" ; width="100%">
+                <div id="activi">
+            
+                <h3>Aprende Nuevas Palabras</h3>
+
+                <p>Haciendo click en el siguiente botón descubriras una nueva palabra random en inglés para sumar a tu vocabulario.
+                </p>
+                <button onclick="owwFin()" value="Hola" id="bott">Obtener datos</button>
+                
+                <div id="contenido" class="container2"></div>
+                </div>
         </aside>
 
         <article>
@@ -121,6 +126,19 @@
         <!--AGREGADO-->
 
     </footer>
+    <script>
+            
+        function owwFin() {
+                    fetch(`https://random-word-api.herokuapp.com/word?number=1`)
+                    .then(resp => resp.json())
+                    .then(jsoon => {
+                        contenido.innerHTML = 
+                        `<h4>${jsoon}</h4>`
+            })
+         }
+    
+     
+        </script>
 
 </body>
 
