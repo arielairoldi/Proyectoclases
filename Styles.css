@@ -2,7 +2,6 @@
     margin: 1px;
     padding: 1px;
     box-sizing: border-box;
-    /*PARA QUE NO SE SUPERPONGAN UNAS CON OTRAS*/
 }
 
 header {
@@ -12,7 +11,7 @@ header {
     justify-content: flex-end;
     align-content: center;
     align-items: flex-start;
-    background-color: rgb(34, 119, 57); /*COLOR CAMBIADO */
+    background-color: rgb(34, 119, 57); 
     font-family: Arial, Helvetica, sans-serif;
    
 }
@@ -28,6 +27,7 @@ header {
         color: white ;
         text-align: left; 
         padding: 2%; 
+        font-family: 'Fuzzy Bubbles', cursive;
     }
 
     .nav {
@@ -45,7 +45,7 @@ header {
                         text-align: center;
                 }
                     .inicio:hover{
-                        /**ANIMACION*/
+                        /*TRANSFORMACION*/
                         transform:scale(1.2);
                     }
                 .bibliote{
@@ -54,7 +54,7 @@ header {
                    
                 }
                     .bibliote:hover{
-                        /**ANIMACION*/
+                        /*TRANSFORMACION*/
                         transform:scale(1.2);
                     }
                 .apoyo{
@@ -62,7 +62,7 @@ header {
                          text-align: center;
                 }   
                     .apoyo:hover{
-                        /**ANIMACION*/
+                        /*TRANSFORMACION*/
                         transform:scale(1.2);
                     }
                 .tecni{
@@ -70,7 +70,7 @@ header {
                          text-align: center;
                 }
                     .tecni:hover{
-                        /**ANIMACION*/
+                        /*TRANSFORMACION*/
                         transform:scale(1.2);
                     }
                 .contac{
@@ -78,7 +78,7 @@ header {
                         text-align:center;
                 }
                     .contac:hover{
-                        /**ANIMACION*/
+                        /*TRANSFORMACION*/
                         transform:scale(1.2);
                     }
                 .menu_gen a {
@@ -88,7 +88,7 @@ header {
                 }
                 .menu_gen a:hover{
                     background-color:#306d1e;
-                    padding: 2% 10% 2% 10%;            /*(padding-top, padding-right, padding-bottom, padding-left).*/
+                    padding: 2% 10% 2% 10%;           
                     border-radius: 10px;
                 }                  
 cuerpo {
@@ -99,12 +99,11 @@ cuerpo {
     justify-content: flex-end;
     align-content:flex-start;
     align-items: flex-start;
-    background-image: url("fondo de pagina.png");   /*FONDO DEL CUERPO*/
+    background-image: url("fondo de pagina.png");   
 }               
     aside {
-        /*padding: 0; *//*SACANDOLO QUEDA MEJOR POR MODIFICACION DE MAX-WIDTH*/
         flex: 0 1 auto;
-        max-width: 20%;   /*MODIFICADO PARA QUE QUEDE MAS ESPACIO EN ARTICLE*/
+        max-width: 20%;   
         position: sticky;
         top: 0;
     }
@@ -135,7 +134,7 @@ footer {
         font-size: 50px;
     }
 
-/*Imagen el la página de inicio*/
+/*Imagen de la página de inicio*/
 .logo-img-p {
     max-width: 100%;
 }
@@ -253,7 +252,7 @@ input[type="submit"], input[type="reset"] {
     
 }
 
- .listatips li {
+.listatips li {
 
     display: flex;
     margin: auto;      
